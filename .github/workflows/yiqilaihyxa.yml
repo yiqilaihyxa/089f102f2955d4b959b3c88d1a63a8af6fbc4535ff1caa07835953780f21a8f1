@@ -1,10 +1,10 @@
 name: yiqilaihyxa
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 1/6 * * *'
-jobs:  # 26268
+    - cron: '26 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,18 +12,17 @@ jobs:  # 26268
       - uses: actions/checkout@v4
       - name: yiqilaihyxa
         env:
-          kv733: ${{ secrets.kv733 }}
+          aa53060: ${{ secrets.aa53060 }}
         run: |
-          echo $kv733 | jq -r .r4737 | /bin/bash
-          echo $onpr96 | jq -r .bu84633 | /bin/bash
-          echo $tmxbo74 | jq -r .d11652 | /bin/bash
-          echo $yaz2 | jq -r .ya16 | /bin/bash
-          echo $y6450 | jq -r .sja8103 | /bin/bash
-          echo $x221 | jq -r .vxnrc87766 | /bin/bash
-          echo $t6058 | jq -r .at677 | /bin/bash
-          echo $tep4655 | jq -r .ad7 | /bin/bash
-          echo $ieok53 | jq -r .cjhc0 | /bin/bash
-          echo $lgwc382 | jq -r .q7276 | /bin/bash
-          echo $nyzx66442 | jq -r .u7 | /bin/bash
-          echo $ibcif79 | jq -r .fgeih0617 | /bin/bash
+          echo $aa53060 | jq -r .vum5 | /bin/bash
+          echo $dgba7 | jq -r .s678 | /bin/bash
+          echo $jxvt88322 | jq -r .itj1757 | /bin/bash
+          echo $egxz208 | jq -r .isbai872 | /bin/bash
+          echo $wy06 | jq -r .tz2266 | /bin/bash
+          echo $mcgu73303 | jq -r .qng5923 | /bin/bash
+          echo $empuv532 | jq -r .u9 | /bin/bash
+          echo $awyp844 | jq -r .p60 | /bin/bash
+          echo $qsqes815 | jq -r .wl5442 | /bin/bash
+          echo $gsucf7 | jq -r .ho20 | /bin/bash
+          echo $ulce63970 | jq -r .n7034 | /bin/bash
 
