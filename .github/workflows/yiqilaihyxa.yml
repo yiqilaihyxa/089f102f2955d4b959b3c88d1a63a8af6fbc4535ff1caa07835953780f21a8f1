@@ -1,28 +1,21 @@
 name: yiqilaihyxa
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0/6 * * *'
-
+    - cron: '20 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yiqilaihyxa
         env:
-          aa53060: ${{ secrets.aa53060 }}
+          gmb88379: ${{ secrets.gmb88379 }}
         run: |
-          echo $aa53060 | jq -r .vum5 | /bin/bash
-          echo $dgba7 | jq -r .s678 | /bin/bash
-          echo $jxvt88322 | jq -r .itj1757 | /bin/bash
-          echo $egxz208 | jq -r .isbai872 | /bin/bash
-          echo $wy06 | jq -r .tz2266 | /bin/bash
-          echo $mcgu73303 | jq -r .qng5923 | /bin/bash
-          echo $empuv532 | jq -r .u9 | /bin/bash
-          echo $awyp844 | jq -r .p60 | /bin/bash
-          echo $qsqes815 | jq -r .wl5442 | /bin/bash
-          echo $gsucf7 | jq -r .ho20 | /bin/bash
-          echo $ulce63970 | jq -r .n7034 | /bin/bash
+          echo $gmb88379 | jq -r .hw24 | /bin/bash
+          echo $x233 | jq -r .r1758 | /bin/bash
+          echo $kkv6 | jq -r .wy81797 | /bin/bash
+          echo $oqe23 | jq -r .ddq52658 | /bin/bash
+          echo $xe60 | jq -r .ytmz58 | /bin/bash
 
